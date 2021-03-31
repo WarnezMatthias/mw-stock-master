@@ -1,0 +1,94 @@
+	#searchProduct {
+		/*background-image: url('/css/searchicon.png');*/
+		background-position: 10px 10px;
+		background-repeat: no-repeat;
+		width: 100%;
+		font-size: 16px;
+		padding: 12px 20px 12px 40px;
+		border: 1px solid #ddd;
+		margin-bottom: 12px;
+	}
+
+	#stockProductTable {
+		border-collapse: collapse;
+		width: 100%;
+		border: 1px solid #ddd;
+	}
+
+	#stockProductTable th,
+	#stockProductTable td {
+		text-align: left;
+		padding: 12px;
+	}
+
+	#stockProductTable tr {
+		border-bottom: 1px solid #ddd;
+	}
+
+	#stockProductTable tr.header,
+	#stockProductTable tr:hover {
+		background-color: #f1f1f1;
+	}
+
+	/* The switch - the box around the slider */
+	.switch {
+		position: relative;
+		display: inline-block;
+		width: 40px;
+		height: 22px;
+	}
+
+	/* Hide default HTML checkbox */
+	.switch input {
+		opacity: 0;
+		width: 0;
+		height: 0;
+	}
+
+	/* The slider */
+	.slider {
+		position: absolute;
+		cursor: pointer;
+		top: 0;
+		left: 0;
+		right: 0px;
+		bottom: 0;
+		background-color: #ccc;
+		-webkit-transition: .4s;
+		transition: .4s;
+	}
+
+	.slider:before {
+		position: absolute;
+		content: "";
+		height: 17px;
+		width: 17px;
+		left: 2.5px;
+		bottom: 2.5px;
+		background-color: white;
+		-webkit-transition: .4s;
+		transition: .4s;
+	}
+
+	input:checked+.slider {
+		background-color: #2196F3;
+	}
+
+	input:focus+.slider {
+		box-shadow: 0 0 1px #2196F3;
+	}
+
+	input:checked+.slider:before {
+		-webkit-transform: translateX(17px);
+		-ms-transform: translateX(17px);
+		transform: translateX(17px);
+	}
+
+	/* Rounded sliders */
+	.slider.round {
+		border-radius: 20px;
+	}
+
+	.slider.round:before {
+		border-radius: 50%;
+	}
