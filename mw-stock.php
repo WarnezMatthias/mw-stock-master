@@ -9,7 +9,7 @@
  * Author URI:
  */
 
-/*Hier komt een update van de release*/
+/*Hier komt een update van de release tekst2*/
 
 if (!defined('ABSPATH')) {
 	die;
