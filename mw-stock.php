@@ -4,10 +4,12 @@
  * Plugin Name: Stock
  * Plugin URI:
  * Description: Creates a extra tab in my account for changing the stock of products.
- * Version: 1.0
+ * Version: 2.0
  * Author: Matthias Warnez
  * Author URI:
  */
+
+/*Hier komt een update van de release*/
 
 if (!defined('ABSPATH')) {
 	die;
